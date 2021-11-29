@@ -1,6 +1,6 @@
 ## Instalation:
 
-1. From terminal go to the root directory and instal the dependencies:
+1. From terminal, go to the root directory and install the dependencies:
  - ### `npm run install-dependencies`
 
 2. Watch your email for the .env file and paste it into the root directory.
