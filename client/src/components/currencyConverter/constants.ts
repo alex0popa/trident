@@ -1,0 +1,1 @@
+export const INITIAL_CURRENCIES_VALUES = { EUR: 0, USD: 0 };

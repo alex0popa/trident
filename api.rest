@@ -1,0 +1,54 @@
+POST http://localhost:8080/api/auth/register
+content-type: application/json
+
+{
+  "name": "Alex",
+  "lastName": "Popa",
+  "email": "alex@gmail.com",
+  "birthDate": "1986-01-16",
+  "password": "test00",
+  "passwordVerify": "test00"
+}
+
+###
+POST http://localhost:8080/api/auth/login
+content-type: application/json
+
+{
+  "email": "alex@gmail.com",
+  "password": "test00"
+}
+
+###
+GET http://localhost:8080/api/test
+
+###
+GET http://localhost:8080/api/logged
+
+###
+GET http://localhost:8080/api/convert-eur-to-usd
+content-type: application/json
+
+{
+  "amount": 15
+}
+
+###
+GET http://localhost:8080/api/get-weather-info
+content-type: application/json
+
+{
+  "cityName": "Ghisalba"
+}
+
+###
+POST http://localhost:8080/api/todos/add-todo
+Content-Type: application/json
+
+{
+  "name": "Fourth todo",
+  "expiration": 1640591788000
+}
+
+###
+GET http://localhost:8080/api/todos/get-all-todos
